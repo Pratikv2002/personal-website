@@ -387,27 +387,25 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Web developer (Intern)",
-          company: "Baoiam",
-          company_url: "https://www.baoiam.com",
-          logo_path: "baoiam.jpg",
-          duration: "Feb 2022 - May 2021",
-          location: "Work from home",
+          title: "Front Developer Intern",
+          company: "Visaero Pvt. Ltd.",
+          company_url: "https://www.visaero.com/    ",
+          logo_path: "visaero.png",
+          duration: "June 2022 - currently working",
+          location: "Kharadi IT park, Pune",
           description:
-          `Train, manage and provide guidance to junior Web development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing web applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used REACT. 100% of my work was doing frontend development tasks.
+          `Currently Working.....
           `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          task1:"https://pratikv2002.github.io/baoiam-task-1/",
-          task2:"https://pratikv2002.github.io/baoiam-task-2/",
-          color: "#0071C5",
+            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+            task1:"#",
+            task2:"#",
+            color: "#f7702d",
+
+
         },
         {
           title: "Web developer Intern",
-          company: "Social Mask & cube digi",
+          company: "Social Mask & cube digi Pvt. Ltd.",
           // company_url: "http://nightowls.company/",
           logo_path: "social_mask.png",
           duration: "March 2022 - April 2022",
@@ -422,9 +420,28 @@ const experience = {
             // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
             task1:"https://pratikv2002.github.io/authentication-web-react/",
             task2:"#",
-            color: "#ee3c26",
+            color: "#50bf80",
 
 
+        },
+        {
+          title: "Web developer (Intern)",
+          company: "Baoiam Pvt. Ltd.",
+          company_url: "https://www.baoiam.com",
+          logo_path: "baoiam.jpg",
+          duration: "Feb 2022 - May 2021",
+          location: "Work from home",
+          description:
+          `Train, manage and provide guidance to junior Web development staff.
+          Work closely with the Project Manager and Team Leads on change request functions.
+          Develops new and maintains existing web applications.
+          Increased productivity and problem-solving technics by 20%.
+          We primarily used REACT. 100% of my work was doing frontend development tasks.
+          `,
+            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          task1:"https://pratikv2002.github.io/baoiam-task-1/",
+          task2:"https://pratikv2002.github.io/baoiam-task-2/",
+          color: "#6b34b3",
         }
       ],
     },

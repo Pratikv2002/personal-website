@@ -59,9 +59,9 @@ function ExperienceCard(props) {
         >
           {experience["description"]}
         </p>
-        <p className="experience-card-description">Work I do?</p>
-        <a className="experience-card-task" href={experience["task1"]} target ="_blank">Task 1</a>
-        <a className="experience-card-task" href={experience["task2"]} target ="_blank">Task 2</a>
+       {experience["task1"]==="#"&&experience["task2"]==="#"?<span></span>:<p className="experience-card-description">Work I do?</p>}
+        {experience["task1"]==="#"?<span></span>:<a style={{color:"#fc2b2b"}} className="experience-card-task" href={experience["task1"]} target ="_blank">Task 1</a>}
+        {experience["task2"]==="#"?<span></span>:<a style={{color:"#fc2b2b"}}className="experience-card-task" href={experience["task2"]} target ="_blank">Task 2</a>}
       </div>
     </div>
   );
