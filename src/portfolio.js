@@ -102,6 +102,7 @@ const skills = {
             color: "#439743",
           },
         },
+        
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -491,7 +492,55 @@ const contactPageData = {
 
 const projects = {
   data: [
+   
     {
+      id: "0",
+      name: "Billing and Invoice Website",
+      url: "https://github.com/Pratikv2002/Billing-mern.git",
+      description: "Using this project user can generate the GST-bill and invoice. Using this project user can track how many peoples paid the bill how many are remaining.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "Express",
+          iconifyClass: "logos-express",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Collage Website",
+      url: "https://github.com/Pratikv2002/Collage_Website_MERN_Stack.git",
+      description: "This project is create for centralized and easy access of study material, time table, college news, college event registration for students and teachers.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "Express",
+          iconifyClass: "logos-express",
+        },
+      ],
+    }, {
       id: "0",
       name: "E-learning Website 1",
       url: "https://pratikv2002.github.io/baoiam-task-1/",
