@@ -11,13 +11,12 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Pratik Vyavahare",
-  logo_name: "pratik.v()",
+  logo_name: "vyrynt.com()",
   nickname: "pratik / picleric",
   full_name: "Pratik Vyavahare",
   subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink:
-    "",
+    "Freelance Full-Stack Developer: Creating Optimized 🔥, Interactive Web Applications.",
+  resumeLink: "",
   mail: "mailto:pratikvyavahare97@gmail.com",
 };
 
@@ -38,11 +37,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / UI for your web applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Android",
-        "⚡ Creating application backend in Node & Express",
-        "⚡ Integration of third party services such as Github/ Mongodb"
+        "⚡ Providing optimized full-stack web application solutions",
+        "⚡ Building interactive and responsive user interfaces",
+        "⚡ Developing robust and efficient backend systems",
+        "⚡ Managing DevOps and server deployments",
+        "⚡ Ensuring high-speed performance and reliability",
       ],
       softwareSkills: [
         {
@@ -83,7 +82,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:tsnode",
           style: {
             color: "#339933",
           },
@@ -102,7 +101,7 @@ const skills = {
             color: "#439743",
           },
         },
-        
+
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -138,13 +137,13 @@ const skills = {
         //     color: "#029FCE",
         //   },
         // },
-        // {
-        //   skillName: "SQL",
-        //   fontAwesomeClassname: "simple-icons:sql",
-        //   style: {
-        //     color: "#000000",
-        //   },
-        // },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#000000",
+          },
+        },
         // {
         //   skillName: "jQuery",
         //   fontAwesomeClassname: "simple-icons:jquery",
@@ -181,8 +180,8 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
             color: "#f89820",
           },
@@ -201,32 +200,31 @@ const skills = {
             color: "#E94E32",
           },
         },
-      
       ],
     },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Proficient in cloud platform deployment",
+        "⚡ Expertise in website hosting and management",
+        "⚡ Skilled in Continuous Integration practices",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
-        // {
-        //   skillName: "Netlify",
-        //   fontAwesomeClassname: "simple-icons:netlify",
-        //   style: {
-        //     color: "#38AFBB",
-        //   },
-        // },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
+          style: {
+            color: "#38AFBB",
+          },
+        },
         // {
         //   skillName: "Heroku",
         //   fontAwesomeClassname: "simple-icons:heroku",
@@ -234,13 +232,13 @@ const skills = {
         //     color: "#6863A6",
         //   },
         // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
         // {
         //   skillName: "PostgreSQL",
         //   fontAwesomeClassname: "simple-icons:postgresql",
@@ -255,13 +253,13 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
@@ -281,12 +279,9 @@ const degrees = {
       subtitle: "Bachelor in Computer Engineering",
       logo_path: "mmit.png",
       alt_name: "MMIT",
-      duration: "2019 - Present",
+      duration: "2019 - 2023",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Computer Engineering."
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Graduated with a CGPA of 8.36 in Computer Engineering.",
       ],
       website_link: "https://www.mmit.edu.in/",
     },
@@ -308,6 +303,24 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "SAP BTP LCNC",
+      subtitle: "SAP",
+      logo_path: "sap.jpg",
+      certificate_link:
+        "https://www.credly.com/badges/75d0ca64-3614-4e20-a881-f5afe59899c2",
+      alt_name: "SAP",
+      color_code: "#5d12ab",
+    },
+    {
+      title: "Data Structures and Algorithms",
+      subtitle: "Code Help",
+      logo_path: "codeHelp.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1RDcnQu0PWf09MVRTRwbCxYZTTJQo-3Kb/view?usp=sharing",
+      alt_name: "Code Help",
+      color_code: "#5ddFED",
+    },
     {
       title: "Ethcial Hacking",
       subtitle: "Azure Skynet",
@@ -363,7 +376,7 @@ const certifications = {
         "https://drive.google.com/file/d/1qm097ATZO4zpjZEQl0tpIV7WKe6x2g1N/view?usp=sharing",
       alt_name: "Letter",
       color_code: "#2AAFED",
-    }
+    },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -381,28 +394,39 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I have accumulated over 2.5 years of experience in the IT industry. I have primarily undertaken independent projects and am currently focusing on identifying business problems and devising optimal solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Front Developer Intern",
+          title: "Software Developer ",
+          company: "Crave Infotech",
+          company_url: "https://www.craveinfotech.com/    ",
+          logo_path: "crave.png",
+          duration: "feb 2023 - currently working",
+          location: "Hinjewadi Phase-1, Pune",
+          description: `Currently immersed in SAP tools, actively developing B2B and supply chain applications to streamline operations and optimize business processes.
+          `,
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          task1: "#",
+          task2: "#",
+          color: "#f7abcd",
+        },
+        {
+          title: "FrontEnd Developer Intern",
           company: "Visaero Pvt. Ltd.",
           company_url: "https://www.visaero.com/    ",
           logo_path: "visaero.png",
-          duration: "June 2022 - currently working",
+          duration: "June 2022 - Sep 2022",
           location: "Kharadi IT park, Pune",
-          description:
-          `Currently Working.....
+          description: `Frontend developer for e-visa application, ensuring seamless user experience and interface functionality.
           `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-            task1:"#",
-            task2:"#",
-            color: "#f7702d",
-
-
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          task1: "#",
+          task2: "#",
+          color: "#f7702d",
         },
         {
           title: "Web developer Intern",
@@ -411,19 +435,16 @@ const experience = {
           logo_path: "social_mask.png",
           duration: "March 2022 - April 2022",
           location: "Work From Home",
-          description:
-          `Train, manage and provide guidance to junior Web development staff.
+          description: `Train, manage and provide guidance to junior Web development staff.
           Work closely with the Project Manager and Team Leads on change request functions.
           Develops new and maintains existing web applications.
           Increased productivity and problem-solving technics by 20%.
           We primarily used REACT. 100% of my work was doing frontend development tasks.
           `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-            task1:"https://pratikv2002.github.io/authentication-web-react/",
-            task2:"#",
-            color: "#50bf80",
-
-
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          task1: "#",
+          task2: "#",
+          color: "#50bf80",
         },
         {
           title: "Web developer (Intern)",
@@ -432,18 +453,17 @@ const experience = {
           logo_path: "baoiam.jpg",
           duration: "Feb 2022 - May 2021",
           location: "Work from home",
-          description:
-          `Train, manage and provide guidance to junior Web development staff.
+          description: `Train, manage and provide guidance to junior Web development staff.
           Work closely with the Project Manager and Team Leads on change request functions.
           Develops new and maintains existing web applications.
           Increased productivity and problem-solving technics by 20%.
           We primarily used REACT. 100% of my work was doing frontend development tasks.
           `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          task1:"https://pratikv2002.github.io/baoiam-task-1/",
-          task2:"https://pratikv2002.github.io/baoiam-task-2/",
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          task1: "#",
+          task2: "#",
           color: "#6b34b3",
-        }
+        },
       ],
     },
     {
@@ -469,7 +489,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create javaScript Projects, Python, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "I specialize in crafting innovative projects using the MERN stack (MongoDB, Express.js, React, Node.js). Notable projects include a comprehensive e-commerce platform, a B2B application, an AI-powered chatbot integration, a data visualization dashboard, and a social media analytics tool. Leveraging the power of React for seamless frontend interactions and Node.js for scalable backend services, I thrive on creating dynamic and scalable solutions that seamlessly integrate frontend and backend technologies. These projects demonstrate my ability to deliver robust full-stack web applications with features ranging from user authentication and product catalog management to AI integration and data visualization.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -477,7 +497,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "pratik3.jpeg",
+    profile_image_path: "PassportImg.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -492,12 +512,12 @@ const contactPageData = {
 
 const projects = {
   data: [
-   
     {
       id: "0",
       name: "Billing and Invoice Website",
       url: "https://github.com/Pratikv2002/Billing-mern.git",
-      description: "Using this project user can generate the GST-bill and invoice. Using this project user can track how many peoples paid the bill how many are remaining.",
+      description:
+        "Using this project user can generate the GST-bill and invoice. Using this project user can track how many peoples paid the bill how many are remaining.",
       languages: [
         {
           name: "ReactJS",
@@ -521,7 +541,8 @@ const projects = {
       id: "1",
       name: "Collage Website",
       url: "https://github.com/Pratikv2002/Collage_Website_MERN_Stack.git",
-      description: "This project is create for centralized and easy access of study material, time table, college news, college event registration for students and teachers.",
+      description:
+        "This project is create for centralized and easy access of study material, time table, college news, college event registration for students and teachers.",
       languages: [
         {
           name: "ReactJS",
@@ -540,11 +561,13 @@ const projects = {
           iconifyClass: "logos-express",
         },
       ],
-    }, {
+    },
+    {
       id: "0",
       name: "E-learning Website 1",
       url: "https://pratikv2002.github.io/baoiam-task-1/",
-      description: "This is E-Learning website. It show all details about the courses and Booking section on the classes.",
+      description:
+        "This is E-Learning website. It show all details about the courses and Booking section on the classes.",
       languages: [
         {
           name: "HTML5",
@@ -570,24 +593,24 @@ const projects = {
       url: "https://pratikv2002.github.io/baoiam-task-2/",
       description:
         "This is E-Learning website. It show all details about the courses and Booking section on the classes.",
-        languages: [
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-          {
-            name: "ReactJS",
-            iconifyClass: "logos-react",
-          },
-        ],
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+      ],
     },
     {
       id: "2",
@@ -595,24 +618,24 @@ const projects = {
       url: "https://pratikv2002.github.io/authentication-web-react/",
       description:
         "This is Authentication website. It have login and signIn page.We can create account and login In this website",
-        languages: [
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-          {
-            name: "ReactJS",
-            iconifyClass: "logos-react",
-          },
-        ],
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+      ],
     },
     {
       id: "3",
@@ -645,24 +668,24 @@ const projects = {
       url: "https://pratikv2002.github.io/text-editor/",
       description:
         "This my first react website. In this website we can text convert into uppercase, convert into lowercase, copy text, clear text, remove extra space, count word these action can perform. ",
-        languages: [
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-          {
-            name: "ReactJS",
-            iconifyClass: "logos-react",
-          },
-        ],
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+      ],
     },
     {
       id: "5",
@@ -725,20 +748,20 @@ const projects = {
       url: " https://pratikv2002.github.io/Rock-Paper-Scissor/",
       description:
         "This my first web project. This is simple website we can play rock paper scissor game ",
-        languages: [
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-        ],
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
     },
     {
       id: "9",
@@ -746,20 +769,20 @@ const projects = {
       url: " https://pratikv2002.github.io/BMI-calculator/",
       description:
         "This my second web project. This is simple website we can calculate the BMI(Body mass index) ",
-        languages: [
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-        ],
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
     },
   ],
 };
